@@ -1,0 +1,19 @@
+.header,
+.enunciate,
+.text{
+  color: var(--mantine-color-dark-4);
+  font-size: clamp(.9rem, 1vw + 2px, 1rem);
+}
+.header{
+  font-size: clamp(1.2rem, 1.5vw, 1.5rem);
+}
+
+.enunciate{
+  font-size: clamp(1rem, 1.2vw, 1.2rem);
+}
+
+.text{
+  color: var(--mantine-color-dark-2);
+  list-style: none;
+  text-align: justify;
+}

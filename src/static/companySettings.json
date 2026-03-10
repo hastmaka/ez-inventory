@@ -1,0 +1,32 @@
+[
+  {
+    "permission_name": "menu_company_settings",
+    "label": "Company Settings",
+    "path": "company/settings",
+    "sub_menu": []
+  },
+  {
+    "permission_name": "menu_company_information",
+    "label": "Company Information",
+    "path": "company/information",
+    "sub_menu": []
+  },
+  {
+    "permission_name": "menu_company_resources",
+    "label": "Company Resources",
+    "path": "company/resources",
+    "sub_menu": []
+  },
+  {
+    "permission_name": "menu_company_product_and_services",
+    "label": "Company Product & Services",
+    "path": "company/product-and-services",
+    "sub_menu": [
+      {
+        "permission_name": "menu_company_product_and_services_sub_menu_test",
+        "label": "Test",
+        "path": "company/product-and-services/test"
+      }
+    ]
+  }
+]

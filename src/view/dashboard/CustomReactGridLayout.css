@@ -1,0 +1,7 @@
+.react-grid-layout {
+    background: #00000002 !important;
+}
+
+.react-grid-item.react-grid-placeholder {
+    background-color: var(--mantine-primary-color-2);
+}

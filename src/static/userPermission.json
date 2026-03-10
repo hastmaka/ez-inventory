@@ -1,0 +1,198 @@
+{
+  "_comment": {
+    "permission_types": [
+      {
+        "name": "module",
+        "description": "navbar top level access, for every route must be a module associated to it"
+      },
+      {
+        "name": "sub_module",
+        "description": "sub-route to a module, in the navbar"
+      },
+      {
+        "name": "route",
+        "description": "this is a normal route, always is going to be associated directly with a module"
+      },
+      {
+        "name": "menu_icon",
+        "description": "top level icon, this would work as the root of the menu"
+      },
+      {
+        "name": "menu_item",
+        "description": "menu item, every item has its own permission"
+      },
+      {
+        "name": "sub_menu_item",
+        "description": "sub menu item, every sub item has its own permission as well, an so on"
+      },
+      {
+        "name": "grid_action",
+        "description": "action icons on the grid, each one has its own"
+      }
+    ]
+  },
+  "permissions": [
+    {
+      "permission_name": "module_admin",
+      "permission_type": "module"
+    },
+    {
+      "permission_name": "user_settings",
+      "permission_type": "sub_module"
+    },
+    {
+      "permission_name": "agencies_settings",
+      "permission_type": "sub_module"
+    },
+    {
+      "permission_name": "roles_settings",
+      "permission_type": "sub_module"
+    },
+    {
+      "permission_name": "my_agency",
+      "permission_type": "module"
+    },
+    {
+      "permission_name": "module_dashboard",
+      "permission_type": "module"
+    },
+    {
+      "permission_name": "module_calendar",
+      "permission_type": "module"
+    },
+    {
+      "permission_name": "module_clients",
+      "permission_type": "module"
+    },
+    {
+      "permission_name": "module_employees",
+      "permission_type": "module"
+    },
+    {
+      "permission_name": "module_test",
+      "permission_type": "module"
+    },
+    {
+      "permission_name": "module_company",
+      "permission_type": "module"
+    },
+    {
+      "permission_name": "company_settings",
+      "permission_type": "route"
+    },
+    {
+      "permission_name": "menu_company",
+      "permission_type": "menu_icon"
+    },
+    {
+      "permission_name": "menu_company_settings",
+      "permission_type": "menu_item"
+    },
+    {
+      "permission_name": "menu_company_information",
+      "permission_type": "menu_item"
+    },
+    {
+      "permission_name": "menu_company_resources",
+      "permission_type": "menu_item"
+    },
+    {
+      "permission_name": "menu_company_product_and_services",
+      "permission_type": "menu_item"
+    },
+    {
+      "permission_name": "menu_company_product_and_services_sub_menu_test",
+      "permission_type": "sub_menu_item"
+    },
+    {
+      "permission_name": "menu_notification",
+      "permission_type": "menu_icon"
+    },
+    {
+      "permission_name": "menu_theme",
+      "permission_type": "menu_icon"
+    },
+    {
+      "permission_name": "module_test1",
+      "permission_type": "route"
+    },
+    {
+      "permission_name": "module_test2",
+      "permission_type": "route"
+    },
+    {
+      "permission_name": "client_grid_edit",
+      "permission_type": "grid_action"
+    },
+    {
+      "permission_name": "client_grid_delete",
+      "permission_type": "grid_action"
+    },
+    {
+      "permission_name": "client_grid_status",
+      "permission_type": "grid_action"
+    }
+  ],
+  "user_preferences": {
+    "theme": "dark",
+    "color": "blue",
+    "dashboard_layout": {
+      "lg": [
+        {
+          "w": 3,
+          "h": 2,
+          "x": 0,
+          "y": 0,
+          "i": "new_costumers",
+          "moved": false,
+          "static": true
+        },
+        {
+          "w": 3,
+          "h": 2,
+          "x": 3,
+          "y": 0,
+          "i": "projects",
+          "moved": false,
+          "static": false
+        },
+        {
+          "w": 6,
+          "h": 2,
+          "x": 6,
+          "y": 0,
+          "i": "estimates_converted_to_projects",
+          "moved": false,
+          "static": false
+        },
+        {
+          "w": 3,
+          "h": 2,
+          "x": 0,
+          "y": 2,
+          "i": "invoice",
+          "moved": false,
+          "static": false
+        },
+        {
+          "w": 3,
+          "h": 2,
+          "x": 3,
+          "y": 2,
+          "i": "payments",
+          "moved": false,
+          "static": false
+        },
+        {
+          "w": 6,
+          "h": 2,
+          "x": 6,
+          "y": 2,
+          "i": "average_revenue_per_project",
+          "moved": false,
+          "static": false
+        }
+      ]
+    }
+  }
+}

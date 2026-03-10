@@ -1,0 +1,19 @@
+.card-header {
+    background-color: light-dark(var(--mantine-color-gray-1), var(--mantine-color-dark-6));
+    border-bottom: 0.0625rem solid light-dark(var(--mantine-color-gray-2), var(--mantine-color-dark-6));
+    padding: 1rem;
+    max-height: 56px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+.icon {
+    transition: all 0.3s ease;
+    color: light-dark(var(--mantine-color-dark-6), var(--mantine-color-gray-0));
+    background-color: light-dark(var(--mantine-color-gray-1), var(--mantine-color-dark-6));
+    border-color: red;
+    &:hover {
+        //color: light-dark(var(--mantine-color-dark-6), var(--mantine-color-bg_color-0));
+        //background-color: light-dark(var(--mantine-color-bg_color-0), var(--mantine-color-dark-6));
+    }
+}

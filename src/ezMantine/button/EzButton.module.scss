@@ -1,0 +1,24 @@
+//.root {
+//  transition: all 0.2s;
+//  border-color: light-dark(var(--mantine-primary-color-0), var(--mantine-primary-color-6));
+//  color: var(--mantine-color-default);
+//  background-color: light-dark(var(--mantine-primary-color-9), var(--mantine-primary-color-9));
+//  &:hover {
+//    //color: var(--mantine-color-default-hover);
+//    background-color: light-dark(var(--mantine-primary-color-7), var(--mantine-primary-color-6));
+//  }
+//}
+
+.root {
+  &:hover:not([data-disabled="true"]) {
+    //background-color: light-dark(var(--mantine-primary-color-9), 'inherit');
+  }
+
+  &[data-active="true"] {
+    background-color: var(--mantine-primary-color-9);
+
+    &:hover {
+      background-color: var(--mantine-primary-color-9)
+    }
+  }
+}

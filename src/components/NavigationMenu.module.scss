@@ -1,0 +1,15 @@
+.link {
+  border-radius: 4px;
+  transition: all .2s ease;
+
+  &:not(.active):hover {
+    background-color: light-dark(var(--mantine-color-wos-4), var(--mantine-color-wos-8));
+    color: light-dark(var(--mantine-color-white), var(--mantine-color-white));
+  }
+
+  &[data-active=true] {
+    background-color: light-dark(var(--mantine-color-wos-4), var(--mantine-color-wos-3));
+    color: light-dark(var(--mantine-color-white), var(--mantine-color-white));
+  }
+}
+

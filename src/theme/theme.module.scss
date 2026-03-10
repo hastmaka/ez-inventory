@@ -1,0 +1,11 @@
+:root {
+  --item-hover-bg-color: #2c3e50;
+}
+.content {
+  //overflow: hidden;
+  max-width: 1400px;
+}
+
+.header {
+  border-bottom: 0.0625rem solid light-dark(var(--mantine-color-gray-3), var(--mantine-color-dark-4)) !important;
+}

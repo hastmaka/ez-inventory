@@ -1,0 +1,6 @@
+.custom-header-wrapper {
+  background-color: light-dark(var(--mantine-color-bg_color-0), var(--mantine-color-dark-6));
+  border-bottom: 0.0625rem solid light-dark(var(--mantine-color-bg_color-0), var(--mantine-color-dark-6));
+  padding: 1rem;
+  max-height: 56px;
+}

@@ -1,0 +1,23 @@
+//.mantine-Tree-subtree {
+//  padding-left: 10px;
+//}
+.label {
+  padding: 10px 10px 10px 0;
+  border-radius: 4px;
+
+  &[data-hovered] {
+    background-color: light-dark(var(--mantine-primary-color-1), var(--mantine-primary-color-9));
+    color: light-dark(var(--mantine-color-black), var(--mantine-color-white));
+    svg {
+      stroke: light-dark(var(--mantine-color-black), var(--mantine-color-white));
+    }
+  }
+
+  &[data-selected] {
+    background-color: light-dark(var(--mantine-primary-color-9), var(--mantine-primary-color-9));
+    color: light-dark(var(--mantine-color-white), var(--mantine-color-white));
+    svg {
+      stroke: light-dark(var(--mantine-color-white), var(--mantine-color-white));
+    }
+  }
+}

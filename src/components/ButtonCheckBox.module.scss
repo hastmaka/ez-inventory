@@ -1,0 +1,45 @@
+.root {
+    position: relative;
+}
+
+.control {
+    background-color: var(--mantine-color-body);
+    border: 1px solid var(--mantine-color-gray-3);
+    padding: var(--mantine-spacing-xs);
+    padding-left: 60px;
+    border-radius: var(--mantine-radius-md);
+    transition: border-color 100ms ease;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    &[data-checked] {
+        border-color: var(--mantine-color-blue-filled);
+    }
+}
+
+.checkboxWrapper {
+    position: absolute;
+    top: var(--mantine-spacing-md);
+    left: var(--mantine-spacing-md);
+    pointer-events: none;
+}
+
+.checkbox {
+    &:not(:checked) {
+        background-color: var(--mantine-color-body);
+    }
+}
+
+.label {
+    font-size: var(--mantine-font-size-md);
+    line-height: 1.3;
+}
+
+.description {
+    margin-top: 8px;
+    color: var(--mantine-color-dimmed);
+    font-size: var(--mantine-font-size-xs);
+}

@@ -1,0 +1,11 @@
+.card {
+  transition: border 0.1s ease-in-out;
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none;    /* Firefox */
+  -ms-user-select: none;     /* IE/Edge */
+  user-select: none;         /* Standard */
+  &:hover {
+    cursor: pointer;
+    border: 0.0625rem solid var(--mantine-primary-color-8);
+  }
+}

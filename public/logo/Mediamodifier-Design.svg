@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="320" height="320" viewBox="-42.22 -42.22 320 320" xml:space="preserve">
+<desc>Created with Fabric.js 5.2.4</desc>
+<defs>
+</defs>
+<rect x="0" y="0" width="100%" height="100%" fill="transparent"></rect>
+<g transform="matrix(0 0 0 0 0 0)" id="898c3251-08e1-4328-b60c-d002d741afe2"  >
+</g>
+<g transform="matrix(1 0 0 1 160 160)" id="1b114790-7755-49fd-9563-2084934fb265"  >
+<rect style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1; visibility: hidden;" vector-effect="non-scaling-stroke"  x="-160" y="-160" rx="0" ry="0" width="320" height="320" />
+</g>
+<g transform="matrix(0.77 0 0 0.77 79.14 152.39)"  >
+<polygon style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  points="-75.9,31.7 25.6,63.9 101.1,1.4 -101.1,-63.9 " />
+</g>
+<g transform="matrix(0.77 0 0 0.77 131.96 64.03)"  >
+<polygon style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  points="-8.4,-84.2 -87,-12.5 -70.6,84.2 87,-58.3 " />
+</g>
+<g transform="matrix(0.77 0 0 0.77 178.16 158.22)"  >
+<polygon style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  points="57.35,34.3 34.55,-69.7 -57.35,-103.9 -12.75,103.9 " />
+</g>
+</svg>

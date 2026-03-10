@@ -1,0 +1,5 @@
+.color-button {
+  &:hover {
+    background: var(--item-hover-bg-color) !important;
+  }
+}

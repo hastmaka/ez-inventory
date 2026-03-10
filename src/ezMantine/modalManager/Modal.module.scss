@@ -1,0 +1,33 @@
+.content {
+  max-width: 1400px;
+  overflow: hidden;
+}
+
+.close {
+  position: absolute;
+  top: 1rem;
+  right: .8rem;
+  cursor: pointer;
+}
+
+.content-full {
+  overflow: hidden;
+  border: none;
+}
+
+.body {
+  //overflow-x: auto;
+  //padding: 1rem !important;
+}
+
+.body-full {
+  //padding: 1rem !important;
+  //margin-bottom: 1rem !important;
+  height: calc(100vh - 3.75rem);
+  overflow: hidden;
+  display: flex;
+}
+
+.header {
+  border-bottom: 0.0625rem solid light-dark(var(--mantine-color-gray-3), var(--mantine-color-dark-4)) !important;
+}

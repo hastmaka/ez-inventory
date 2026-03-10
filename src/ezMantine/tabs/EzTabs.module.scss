@@ -1,0 +1,98 @@
+:root {
+  --main-view-container-padding: none;
+}
+
+.tabs-root {
+  position: relative;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+
+  .action-btns {
+    position: absolute;
+    top: 0;
+    right: 0;
+    //gap: .5rem
+  }
+}
+
+.tabs-tabs {
+  //position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+}
+
+.tabs-list {
+  &:before {
+    content: "";
+    display: none;
+  }
+  gap: .2rem
+}
+
+.root {
+  display: flex;
+  justify-content: center;
+}
+
+.tabs-panel {
+  padding: .5rem 0 0 0;
+  flex-grow: 1;
+  display: flex;
+
+  .container{
+    display: flex;
+    height: calc(100vh - 138px);
+    flex: 1;
+    //padding-right: var(--main-view-container-padding);
+  }
+}
+
+.tabs-tab {
+  position: relative;
+  border-radius: 4px;
+  color: var(--mantine-primary-color-0);
+  border-color: var(--mantine-primary-color-6);
+  background-color: var(--mantine-primary-color-7);
+  transition: all .1s ease-in-out;
+
+  &:hover {
+    &:not([data-active="true"]) {
+      background-color: var(--mantine-primary-color-9);
+
+      .close {
+        opacity: 1;
+        color: light-dark(var(--mantine-color-white), var(--mantine-color-dark-0));
+        background-color: var(--mantine-primary-color-9);
+        border: 0.0625rem solid light-dark(var(--mantine-color-gray-4), var(--mantine-color-dark-5));
+      }
+    }
+
+    &[data-active="true"] {
+      .close {
+        color: light-dark(var(--mantine-color-white), var(--mantine-color-default));
+        background-color: var(--mantine-primary-color-9);
+        border: 0.0625rem solid light-dark(var(--mantine-color-gray-4), var(--mantine-color-dark-5));
+      }
+    }
+  }
+
+
+  &[data-active="true"] {
+    color: var(--mantine-primary-color-0);
+    background-color: var(--mantine-primary-color-7);
+    border-bottom: 3px solid light-dark(var(--mantine-color-black), var(--mantine-color-white));
+    .close {
+      color: light-dark(var(--mantine-color-white), var(--mantine-color-dark-0))
+    }
+  }
+}
+
+.close {
+  transition: all .2s ease-in-out;
+  background-color: transparent;
+  border: 0.0625rem solid transparent;
+}
+

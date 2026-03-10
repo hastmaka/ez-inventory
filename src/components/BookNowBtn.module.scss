@@ -1,0 +1,18 @@
+.book-now {
+  background-color: var(--mantine-color-primary-0);
+  backdrop-filter: blur(20px);
+  color: #f9f9f9;
+  transition: background-color 0.3s, box-shadow 0.3s;
+
+  &:hover{
+    background-color: rgba(249, 249, 249, 0);
+    color: var(--mantine-color-primary-2);
+    border: 0.0625rem solid var(--mantine-color-primary-2);
+  }
+
+  &:disabled {
+    background-color: rgba(249, 249, 249, 0);
+    color: var(--mantine-color-gray-5);
+    border: 0.0625rem solid var(--mantine-color-gray-5);
+  }
+}

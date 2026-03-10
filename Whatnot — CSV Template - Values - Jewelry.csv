@@ -1,0 +1,26 @@
+Whatnot — CSV Template - Values
+categories,shipping profile,hazmat,,subcategory categories,subcategories,,condition categories,conditions
+Jewelry,0-1 oz,Not Hazmat,,Jewelry,Handcrafted & Artisan Jewelry,,Handcrafted & Artisan Jewelry,New
+,1-3 oz,Hazmat - Standard,,Jewelry,Men's Jewelry,,Handcrafted & Artisan Jewelry,New with defects
+,4-7 oz,Hazmat - Lithium Battery,,Jewelry,Vintage & Antique Jewelry,,Handcrafted & Artisan Jewelry,Pre-owned - Excellent
+,8-11 oz,,,Jewelry,,,Handcrafted & Artisan Jewelry,Pre-owned - Good
+,12-15 oz,,,Jewelry,,,Handcrafted & Artisan Jewelry,Pre-owned - Fair
+,,,,,,,Handcrafted & Artisan Jewelry,Pre-owned - Damaged
+,,,,,,,Jewelry,New
+,,,,,,,Jewelry,New with defects
+,,,,,,,Jewelry,Pre-owned - Excellent
+,,,,,,,Jewelry,Pre-owned - Good
+,,,,,,,Jewelry,Pre-owned - Fair
+,,,,,,,Jewelry,Pre-owned - Damaged
+,,,,,,,Men's Jewelry,New
+,,,,,,,Men's Jewelry,New with defects
+,,,,,,,Men's Jewelry,Pre-owned - Excellent
+,,,,,,,Men's Jewelry,Pre-owned - Good
+,,,,,,,Men's Jewelry,Pre-owned - Fair
+,,,,,,,Men's Jewelry,Pre-owned - Damaged
+,,,,,,,Vintage & Antique Jewelry,New
+,,,,,,,Vintage & Antique Jewelry,New with defects
+,,,,,,,Vintage & Antique Jewelry,Pre-owned - Excellent
+,,,,,,,Vintage & Antique Jewelry,Pre-owned - Good
+,,,,,,,Vintage & Antique Jewelry,Pre-owned - Fair
+,,,,,,,Vintage & Antique Jewelry,Pre-owned - Damaged

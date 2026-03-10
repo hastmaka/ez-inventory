@@ -1,0 +1,10 @@
+.mobile-header {
+  padding: 12px;
+  border-bottom: 1px solid var(--mantine-color-default-border);
+  font-size: 1rem;
+}
+
+.menu-item-active {
+  color: var(--mantine-primary-color-0);
+  background-color: var(--mantine-primary-color-9);
+}

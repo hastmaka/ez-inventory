@@ -1,0 +1,13 @@
+.indicators{
+  margin-bottom: 5rem;
+}
+
+.control {
+  background-color: transparent !important;
+  color: #fff !important;
+  transition: all .4s;
+  &:hover {
+    background-color: rgb(206, 206, 206) !important;
+    color: #000000 !important;
+  }
+}

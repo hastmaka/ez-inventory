@@ -1,0 +1,40 @@
+.icon-root {
+    //border-color: light-dark(var(--mantine-color-wos-2), var(--mantine-color-gray-8));
+    .icon {
+        transition: all 0.2s ease;
+        color: light-dark(var(--mantine-color-wos-4), var(--mantine-color-wos-4));
+        //background-color:light-dark(var(--mantine-color-wos-4), var(--mantine-color-dark-4));
+        &:hover {
+            color: light-dark(var(--mantine-color-black), var(--mantine-color-gray-1));
+            //background-color: light-dark(var(--mantine-color-wos-6), var(--mantine-color-dark-4));
+        }
+    }
+}
+
+.edit{
+    stroke: var(--mantine-color-green-5)
+}
+
+.delete{
+    stroke: var(--mantine-color-red-5)
+}
+
+.disabled{
+    stroke: var(--mantine-color-violet-5)
+}
+
+.enable{
+    stroke: var(--mantine-color-teal-5)
+}
+
+.clientsLastMonth{
+    stroke: var(--mantine-color-teal-5)
+}
+
+.addIcon{
+    stroke: var(--mantine-color-teal-8);
+}
+
+.plus{
+    stroke: var(--mantine-color-dark-1);
+}
